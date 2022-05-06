@@ -1,0 +1,9 @@
+{
+    "name": "ahmed-elnasri-513-chat-app",
+    "version": "1.0",
+    "description": "Ahmed Elnasri's first Node.JS/Socket.io app.",
+    "dependencies": {
+        "express": "^4.17.3",
+        "socket.io": "^4.4.1"
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body style="height: 100%">
+    <div id="modal"><form class="modal-content animate"action="">
+      <h2 style="text-align: center;">Log In</h2>
+      <label for="color">Choose your color</label>
+      <input type="color" id="color" value="#ff0000"><br>
+      <label for="username">Choose your username</label>
+      <input id="username" style="max-width: 80%;"><br>
+      <button>Log In</button>
+    </form></div>
+    <div id="container">
+      <div id="messagecontainer"><ul id="messages"></ul></div>
+      <div id="activecontainer"><ul id="active"></ul></div>  
+    </div>
+    <form id="form" action="" style="height: 10%">
+      <input id="input" autocomplete="off"><button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
