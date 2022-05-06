@@ -2,6 +2,8 @@
 
 A very simple chat app I made for school. Uses Node.js, Express and Socket.io.
 
+![This is an image](demo0.png)
+
 ![This is an image](demo.png)
 
 # How to run
